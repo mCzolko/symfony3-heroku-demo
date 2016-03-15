@@ -1,0 +1,9 @@
+machine:
+  php:
+    version: 7.0.0RC7
+
+deployment:
+  dev:
+    branch: master
+    heroku:
+      appname: symfony3-heroku-demo
